@@ -1,0 +1,228 @@
+html{
+    scroll-behavior: smooth;
+    }
+    
+    body{
+        margin: 0;
+        background-color: #FDF0D1;
+    }
+    section{
+        min-height: 95vh;
+    }
+    .hero{
+        background-color: #FDF0D1;
+        color: #643843;
+        display: flex;
+    }
+    .korobka{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 90vh;
+    }
+    .korobka2{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: 50%;
+        height: 95vh;
+    
+    }
+    .alls1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        border: 0px solid;
+        margin: 0;
+    }
+    h1{
+        margin: 0;
+        font-size: 100px;
+    }
+    h2{
+        margin: 0;
+        font-size: 50px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .textcenter{
+        text-align: center;
+    }
+    
+    img{
+        width: 80%;
+    }
+    .w50{
+        width: 90%; 
+    }
+    input{
+        display: block;
+        margin: 30px 0;
+        width: 100%;
+        height: 30px;
+        font-size: 30px;
+        padding: 15px 30px;
+        border-radius: 30px;
+        border: 0;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+    #aboutme{
+        padding: 50px;
+        color: #FDF0D1;
+        background-color: #AC7D88;
+        position: relative;
+        z-index: 3;
+    }
+    .m50{
+        margin: 50px;
+    }
+    
+    #about1{
+        padding: 50px;
+        color: #FDF0D1;
+        background-color: #AC7D88;
+        position: relative;
+        z-index: 3;
+        height: 60%;
+    }
+    
+    /* Все про меню */
+    .logo{
+        font-size: 30px;
+        text-decoration: none;
+        margin: 0 30px;
+        font-weight: 600;    
+    }
+    .link{
+        font-size: 30px;
+        text-decoration: none;
+        margin: 0 50px;
+        color: #643843;
+    }
+    nav{
+        margin: 20px 50px;
+        border-radius: 50px;
+        width: calc(100% - 100px);
+        color: #643843;
+        background-color: #FDF0D1;
+        display: flex;
+        align-items: center;
+        height: 60px;
+        /position: fixed;/
+    }
+    .right{
+        position: absolute;
+        right: 80px;
+    }
+    .btn{
+        padding: 10px 30px;
+        background-color: #FDF0D1;
+        border-radius: 30px;
+        color: #643843;
+    }
+    
+    
+    /Все про пятно/
+    .piatno{
+        z-index: 1;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        top: 500px;
+        left: 75%;
+        box-shadow: 0px 0px 300px 300px #FDF0D1 ;
+    }
+    img{
+        z-index: 2;
+    }
+    
+    /Все про блог/
+    #myblog{
+        padding: 150px 0;
+        color:#FCF7FF;
+        background-color: #FDF0D1;
+        position: relative;
+        z-index: 3;
+    }
+    .card{
+        width: 500px;
+        color: #643843;
+        background-color: #FDF0D1;
+        padding: 50px ;
+        border-radius: 30px;
+    }
+    .w100{
+        width: 100%;
+    }
+    .cardbtn{
+        text-decoration: none;
+        width: 500px;
+        display: block;
+        margin: 0 150px;
+        
+    }
+    .dflex{
+        display: flex;
+    }
+    .w80{
+        width: 80%;
+    }
+    .chiutnizhe{
+        margin-top: 450px;
+    }
+    
+    
+    
+    @media only screen and (max-width: 600px) {
+    
+    }
+    
+    #myskills{
+        padding: 150px 0;
+        color:#643843;
+        background-color: #FDF0D1;
+        position: relative;
+        z-index: 3;
+    }
+    
+    #myprojects{
+        padding: 150px 0;
+        color:#AC7D88;
+        background-color: #FDF0D1;
+        position: relative;
+        z-index: 3;
+        height: 60%;
+    }
+    
+    .card2{
+        border: 1px solid #643843 ;
+        width: 500px;
+        color: #FDF0D1;
+        background-color: #AC7D88;
+        padding: 50px ;
+        border-radius: 30px;
+    }
+    
+    .pointActive {
+        display: inline-block;
+        background-color: #643843;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+       
+    }
+      
+    .pointPassive {
+        display: inline-block;
+        background-color: #FDF0D1;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+    }
